@@ -104,6 +104,12 @@
   border-radius: 4px;
   font-size: 12px;
 }
+
+@font-face {
+    font-family: "Terminal Glyphs";
+    src: url("/fonts/glyphs.ttf") format("truetype");
+}
+
 .asciinema-terminal {
   box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -120,7 +126,7 @@
   border-style: solid;
   cursor: text;
   border-width: 0.75em;
-  font-family: Consolas, Menlo, 'Bitstream Vera Sans Mono', monospace, 'Powerline Symbols';
+  font-family: Consolas, Menlo, 'Bitstream Vera Sans Mono', monospace, 'Powerline Symbols', 'Terminal Glyphs';
 }
 .asciinema-terminal .line {
   letter-spacing: normal;
