@@ -107,7 +107,7 @@
 
 @font-face {
     font-family: "Terminal Glyphs";
-    src: url("fonts/glyphs.ttf") format("truetype");
+    src: url("/css/fonts/glyphs.ttf") format("truetype");
 }
 
 .asciinema-terminal {
